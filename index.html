@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AMMO Admit Card</title>
+    <title>ASMO Admit Card</title>
     <link rel="shortcut icon" href="asmc.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,7 +22,18 @@
         'Helvetica Neue', sans-serif;
     "
   >
+    <div
+      id="overlay"
+      style="position: absolute; top: 0px; left: 0px; width: 100%"
+    >
+      <img src="overlay.png" alt="" style="opacity: 0.2; width: 100%" />
+    </div>
     <header style="text-align: center; line-height: 100%; user-select: none">
+      <!-- qr start -->
+      <div style="position: absolute; right: 50px; top: 50px">
+        <img src="qr.png" alt="" width="250px" />
+      </div>
+      <!-- qr end -->
       <!-- logo start -->
       <div
         id="logo"
@@ -31,6 +42,7 @@
         <img src="asmc.png" alt="" />
       </div>
       <!-- logo end -->
+
       <h1 style="font-weight: bold; font-size: 3rem">
         Adarsha Samad Math Club
       </h1>
