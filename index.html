@@ -3,12 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ASMO Admit Card</title>
-    <style>
-
-    </style>
+    <title>AMMO Admit Card</title>
+    <link rel="shortcut icon" href="asmc.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Merienda:wght@300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    
+
+  <body
+    style="
+      max-width: 100vw;
+      min-height: 100vh;
+      font-family: 'Comic Neue', system-ui;
+    "
+  >
+    <header style="text-align: center; line-height: 100%">
+      <!-- logo start -->
+      <div
+        id="logo"
+        style="display: flex; justify-content: center; width: 100%"
+      >
+        <img src="asmc.png" alt="" />
+      </div>
+      <!-- logo end -->
+      <h1 style="font-weight: bold; font-size: 3rem">
+        Adarsha Samad Math Club
+      </h1>
+      <p style="font-style: italic; font-size: 2.5rem">
+        Let the Life be Math Oriented
+      </p>
+      <h2 style="font-family: 'Merienda', system-ui; font-size: 3rem">
+        4th Adarsha Samad Math Olympiad - 2024
+      </h2>
+      <p style="font-size: 3.25rem; font-weight: bolder">Admit Card</p>
+    </header>
+    <main style="margin: 50px 0 50px 0">
+      <div
+        style="
+          font-family: 'Nunito', sans-serif;
+          font-size: 1.75rem;
+          display: flex;
+          justify-content: space-around;
+        "
+      >
+        <p>
+          Registration No:
+          <span id="registration-no">123456</span>
+        </p>
+        <p>
+          Category:
+          <span id="category" style="font-weight: bold"
+            >Junior or Secondary</span
+          >
+        </p>
+      </div>
+    </main>
   </body>
 </html>
