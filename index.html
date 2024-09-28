@@ -31,79 +31,89 @@
     }
   </style>
 
-  <body class="max-w-full min-h-screen font-comic pt-14">
-    <div id="overlay" class="absolute -top-10 left-0 w-full -z-10">
-      <img src="overlay.png" alt="" class="w-full opacity-20" />
+  <body class="max-w-full min-h-screen font-comic pt-5 mx-5">
+    <div id="overlay" class="absolute left-0 w-full -z-10">
+      <img src="overlay.png" alt="" class="w-full opacity-20 scale-50" />
     </div>
     <header class="text-center leading-4 select-none">
-      <!-- qr start -->
-      <div class="absolute right-36 top-[1250px] rounded-lg bg-cover">
-        <img src="qr.png" alt="" class="w-56" />
-      </div>
-      <!-- qr end -->
       <!-- logo start -->
       <div id="logo" class="flex justify-center w-full">
-        <img src="asmc.png" alt="" />
+        <img src="asmc.png" alt="" class="w-48" />
       </div>
       <!-- logo end -->
 
-      <h1 class="font-bold text-5xl mt-10 mb-3">Adarsha Samad Math Club</h1>
-      <p class="italic text-3xl">Let the Life be Math Oriented</p>
-      <h2 class="font-merienda text-5xl my-8">
+      <h1 class="font-bold text-3xl mt-3 mb-2">Adarsha Samad Math Club</h1>
+      <p class="italic text-xl">Let the Life be Math Oriented</p>
+      <h2 class="font-merienda text-3xl my-2">
         4th Adarsha Samad Math Olympiad - 2024
       </h2>
-      <p class="text-5xl font-bold">Admit Card</p>
+      <p class="text-3xl font-bold">Admit Card</p>
     </header>
-    <main class="font-nunito my-10">
-      <div class="text-3xl flex justify-around">
-        <div class="my-5">
-          <p>
-            Registration No:
-            <span id="registration-no">241001</span>
-          </p>
+    <main class="font-nunito my-10 mx-14">
+      <div class="">
+        <div class="text-xl">
+          <div class="flex justify-between">
+            <p>
+              Registration No: <span id="reg-no" class="font-bold">241001</span>
+            </p>
+            <p class="text-right">
+              Category: <span id="category" class="font-bold">Secondary</span>
+            </p>
+          </div>
+          <div class="flex justify-between mt-5">
+            <p>
+              Name:
+              <span id="student-name" class="font-bold">Farhan Sadiq</span>
+            </p>
+            <p>
+              Date: <span id="date" class="font-bold">9th October 2024</span>
+            </p>
+          </div>
+          <div class="flex justify-between">
+            <p class="max-w-[300px]">
+              School:
+              <span id="institution-name" class="font-bold"
+                >Lakshmipur Adarsha Samad Govt High School</span
+              >
+            </p>
+            <p class="">
+              Reporting Time:
+              <span id="reporting-time" class="font-bold">8:30 AM</span>
+            </p>
+          </div>
         </div>
-        <div class="my-5">
-          <p>
-            Category:
-            <span id="category" class="font-bold">Junior or Secondary</span>
-          </p>
-        </div>
-      </div>
-      <div class="flex justify-around">
-        <div class="text-3xl -ml-20 my-5">
-          <p>
-            Name: <span id="student-name" class="font-bold">Farhan Sadiq</span>
-          </p>
-        </div>
-        <div class="w-60"></div>
-      </div>
-      <div class="flex justify-around">
-        <div class="font-comic">
-          <h4 class="font-bold text-4xl my-4">Segments:</h4>
-          <ol class="font-comic font-bold text-4xl list-decimal ml-7">
+        <div class="text-xl mb-5"></div>
+        <div class="font-bold font-comic text-3xl">
+          <p>Segments:</p>
+          <ol class="list-decimal ml-8">
             <li>Math Olympiad</li>
             <li>Rubix's Cube Challenge</li>
-            <li>Ask and Win</li>
+            <li>Ask and Wind</li>
           </ol>
-        </div>
-        <div class="font-comic font-bold text-4xl">
-          <h4>Date: <span id="olympiad-date">9th October 2024</span></h4>
-          <h4>Reporting Time: <time>8:30 AM</time></h4>
         </div>
       </div>
     </main>
-    <footer class="flex justify-around flex-1 my-5">
-      <div>
-        <p class="text-2xl">
-          [N.B. : Participants must bring the Admit Card to participate in the
-          Olympiad. <br />
-          Using of any kinds of Electronic devices (e.g. Calculator) is strongly
-          prohibited.
-        </p>
+    <footer>
+      <div class="flex justify-around flex-1 my-5">
+        <div>
+          <p class="text-xs">
+            [N.B. : Participants must bring the Admit Card to participate in the
+            Olympiad. <br />
+            Using of any kinds of Electronic devices (e.g. Calculator) is
+            strongly prohibited.
+          </p>
+        </div>
+        <div
+          class="font-nunito border-t-2 w-[250px] mt-5 border-t-black text-center"
+        >
+          Organizer's Signature
+        </div>
       </div>
-      <div class="font-nunito border-t-2 w-[250px] mt-5 border-t-black">
-        Organizer's Signature
+      <!-- qr start -->
+      <div class="rounded-lg bg-cover pl-10">
+        <img src="qr.png" alt="" class="w-32" />
       </div>
+      <!-- qr end -->
     </footer>
   </body>
 </html>
